@@ -16,10 +16,10 @@ int main(int argc, const char* argv[])
     if(!mysql_real_connect(&mysql, "localhost", "root", "xuge0754", "test", 0, NULL, 0)){
         printf("connecting to mysql error:%d from %s\n", mysql_errno(&mysql), mysql_error(&mysql));
         return -1;
-}else{
+    }else{
         printf("connected mysql successful!\n");
-}
+    }
 
-mysql_close(&mysql);
-return 0;
+    mysql_close(&mysql);
+    return 0;
 }
