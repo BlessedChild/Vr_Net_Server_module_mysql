@@ -1,5 +1,6 @@
 # Vr_Net_Server_module_mysql
 
+    (Environment: MacOS 10.12.6)
     Run testmysql after completing the following operations:
 
     1.install mysql
